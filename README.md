@@ -5,7 +5,7 @@
 A growing collection of Python projects built, extended, and redesigned while studying project-based programming.
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-1%20of%2028-6C63FF?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-2%20of%2028-6C63FF?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-F59E0B?style=for-the-badge)
 
 </div>
@@ -28,7 +28,7 @@ Each project is independently implemented, modified, documented, and improved to
 | # | Project | Interface | Status |
 |---|---|---|---|
 | 01 | [Number Guesser](./projects/01-number-guesser) | CLI + PySide6 GUI | Completed |
-| 02 | Rock Paper Scissors | Planned | Upcoming |
+| 02 | [Rock Paper Scissors](./projects/02-rock-paper-scissors-gui) | Tkinter GUI | Completed |
 | 03 | Password Generator | Planned | Upcoming |
 | 04 | Coming soon | — | Upcoming |
 
@@ -42,7 +42,7 @@ More projects will be added progressively.
 project-based-python-portfolio/
 ├── projects/
 │   ├── 01-number-guesser/
-│   ├── 02-rock-paper-scissors/
+│   ├── 02-rock-paper-scissors-gui/
 │   └── ...
 ├── .gitignore
 └── README.md
@@ -64,9 +64,9 @@ The exact structure depends on the size and requirements of each project.
 
 ---
 
-## Current Project
+## Completed Projects
 
-### Number Guesser
+### 01. Number Guesser
 
 A number-guessing game with two interfaces:
 
@@ -78,6 +78,19 @@ A number-guessing game with two interfaces:
 - Restart and exit controls
 
 [Open Number Guesser](./projects/01-number-guesser)
+
+### 02. Rock Paper Scissors
+
+A desktop Rock–Paper–Scissors game built with Python and Tkinter.
+
+- Graphical Rock, Paper, and Scissors controls
+- Random computer selection
+- Player and computer score tracking
+- Color-coded win, loss, and tie messages
+- Reset button
+- Object-oriented game logic
+
+[Open Rock Paper Scissors](./projects/02-rock-paper-scissors-gui)
 
 ---
 
@@ -95,29 +108,19 @@ Enter the repository:
 cd project-based-python-portfolio
 ```
 
-Open a project:
+Open the desired project folder:
 
 ```bash
-cd projects/01-number-guesser
+cd projects/02-rock-paper-scissors-gui
 ```
 
-Install its dependencies:
+Run the Rock Paper Scissors application:
 
 ```bash
-python -m pip install -r requirements.txt
+python src/game.py
 ```
 
-Run the graphical version:
-
-```bash
-python main.py
-```
-
-Run the command-line version:
-
-```bash
-python cli.py
-```
+Each project includes its own README with project-specific setup and execution instructions.
 
 ---
 
@@ -137,6 +140,7 @@ python cli.py
 
 - [x] Create the portfolio repository
 - [x] Add the first project
+- [x] Add the second project
 - [x] Add a repository-wide `.gitignore`
 - [x] Standardize project organization
 - [ ] Add automated tests
