@@ -5,7 +5,7 @@
 A growing collection of Python projects built, extended, and redesigned while studying project-based programming.
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-3%20of%2028-6C63FF?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-4%20of%2028-6C63FF?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-F59E0B?style=for-the-badge)
 
 </div>
@@ -30,7 +30,7 @@ Each project is independently implemented, modified, documented, and improved to
 | 01 | [Number Guesser](./projects/01-number-guesser) | CLI + PySide6 GUI | Completed |
 | 02 | [Rock Paper Scissors](./projects/02-rock-paper-scissors-gui) | Tkinter GUI | Completed |
 | 03 | [Password Generator](./projects/03-password-generator) | Tkinter GUI | Completed |
-| 04 | Coming soon | — | Upcoming |
+| 04 | [Password Generator — Streamlit](./projects/04-password-generator-streamlit) | Streamlit Web App | Completed |
 
 More projects will be added progressively.
 
@@ -108,6 +108,20 @@ A desktop password generator built with Python, Tkinter, and NLTK.
 
 [Open Password Generator](./projects/03-password-generator)
 
+### 04. Password Generator — Streamlit
+
+A web-based password generator built with Python, Streamlit, and NLTK.
+
+- Random password generation
+- Optional numbers and symbols
+- Memorable word-based passwords
+- Numeric PIN generation
+- Interactive Streamlit interface
+- Object-oriented generator classes
+
+> This educational project uses Python's `random` module and is not intended for security-sensitive password generation.
+
+[Open Streamlit Password Generator](./projects/04-password-generator-streamlit)
 ---
 
 ## Running a Project
@@ -180,3 +194,4 @@ The source code, project structure, added features, documentation, and redesigns
 **Amir Mohammad Asgari**
 
 [GitHub Profile](https://github.com/mr-amirasgari)
+
