@@ -5,7 +5,7 @@
 A growing collection of Python projects built, extended, and redesigned while studying project-based programming.
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-4%20of%2028-6C63FF?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-5%20of%2028-6C63FF?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-F59E0B?style=for-the-badge)
 
 </div>
@@ -31,6 +31,7 @@ Each project is independently implemented, modified, documented, and improved to
 | 02 | [Rock Paper Scissors](./projects/02-rock-paper-scissors-gui) | Tkinter GUI | Completed |
 | 03 | [Password Generator](./projects/03-password-generator) | Tkinter GUI | Completed |
 | 04 | [Password Generator — Streamlit](./projects/04-password-generator-streamlit) | Streamlit Web App | Completed |
+| 05 | [Happy Number Checker](./projects/05-happy-number-checker) | Tkinter GUI | Completed |
 
 More projects will be added progressively.
 
@@ -122,6 +123,19 @@ A web-based password generator built with Python, Streamlit, and NLTK.
 > This educational project uses Python's `random` module and is not intended for security-sensitive password generation.
 
 [Open Streamlit Password Generator](./projects/04-password-generator-streamlit)
+### 05. Happy Number Checker
+
+A desktop application that determines whether a positive integer is a happy number.
+
+- Happy-number detection
+- Repeating-cycle detection
+- Complete calculation steps
+- Input validation
+- Modern Tkinter interface
+- No third-party dependencies
+
+[Open Happy Number Checker](./projects/05-happy-number-checker)
+
 ---
 
 ## Running a Project
@@ -194,4 +208,6 @@ The source code, project structure, added features, documentation, and redesigns
 **Amir Mohammad Asgari**
 
 [GitHub Profile](https://github.com/mr-amirasgari)
+
+
 
